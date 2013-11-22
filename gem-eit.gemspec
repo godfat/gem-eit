@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lin Jen-Shin (godfat)"]
   s.date = "2013-11-22"
-  s.description = "Edit the gem for a given name or edit the file for a given require path.\n\nAlso checkout [gem-cd][], [gem-grep][].\n\n[gem-cd]: https://github.com/godfat/gem-cd\n[gem-grep]: https://github.com/godfat/gem-grep"
+  s.description = "Edit the gem for a given name or edit the file for a given require path.\n\nAlso checkout [gem-grep][].\n\n[gem-grep]: https://github.com/godfat/gem-grep"
   s.email = ["godfat (XD) godfat.org"]
   s.files = [
   ".gitignore",
