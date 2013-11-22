@@ -21,6 +21,15 @@ class Gem::Commands::EitCommand < Gem::Command
     Gem::DefaultUserInteraction.use_ui(ui) do
       Gem::GemRunner.new.run(['path'] + options[:args])
     end
-    exec('eit', ui.outs.string.strip)
+    exec(eit, ui.outs.string.strip)
+  end
+
+  def exec *args
+    say(args.join(' '))
+    super
+  end
+
+  def eit
+    ENV['EIT_EDITOR'] || ENV['EDITOR'] || 'vim'
   end
 end

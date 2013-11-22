@@ -8,6 +8,6 @@ end
 
 Gemgem.init(dir) do |s|
   s.name    = 'gem-eit'
-  s.version = '0.5.0'
+  s.version = '0.5.1'
   s.add_runtime_dependency('gem-path')
 end
