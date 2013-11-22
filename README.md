@@ -25,6 +25,7 @@ Because [gem-edit][] was already taken.
 ## REQUIREMENTS:
 
 * Tested with MRI (official CRuby) 1.9.3, 2.0.0, Rubinius and JRuby.
+* [gem-path](https://github.com/godfat/gem-path)
 
 ## INSTALLATION:
 
@@ -34,21 +35,21 @@ Because [gem-edit][] was already taken.
 
 Please set either `$EIT_EDITOR` or `$EDITOR`.
 
-### Gem path
+### Edit gem
 
     gem eit rib           # $EDITOR ~/.gem/ruby/2.0.0/gems/rib-1.0.0
 
-### Gem path with specific gem version
+### Edit gem with specific version
 
     gem eit rib '<1'      # $EDITOR ~/.gem/ruby/2.0.0/gems/rib-0.9.9
     gem eit rib '~>0.8.2' # $EDITOR ~/.gem/ruby/2.0.0/gems/rib-0.8.9
     gem eit rib 0.1.0     # $EDITOR ~/.gem/ruby/2.0.0/gems/rib-0.1.0
 
-### Find gem path from a require path
+### Edit gem from a require path
 
     gem eit rib/config    # $EDITOR ~/.gem/ruby/2.0.0/gems/rib-1.0.0
 
-### Find file path from a require path
+### Edit a file from a require path
 
     gem eit timeout       # $EDITOR /usr/lib/ruby/2.0.0/timeout.rb
 
