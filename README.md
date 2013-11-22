@@ -11,9 +11,8 @@ by Lin Jen-Shin ([godfat](http://godfat.org))
 
 Edit the gem for a given name or edit the file for a given require path.
 
-Also checkout [gem-cd][], [gem-grep][].
+Also checkout [gem-grep][].
 
-[gem-cd]: https://github.com/godfat/gem-cd
 [gem-grep]: https://github.com/godfat/gem-grep
 
 ## WHY eit?
