@@ -36,6 +36,10 @@ Because [gem-edit][] was already taken.
 Please set either `$GEM_EDITOR` or `$EDITOR` to the editor you want.
 By default it would pick `vim` if nothing is set.
 
+Also checkout [gem.fish][] for fish completion.
+
+[gem.fish]: https://github.com/godfat/dev-tool/blob/master/.config/fish/completions/gem.fish
+
 ### Edit gem
 
     gem eit rib           # $EDITOR ~/.gem/ruby/2.0.0/gems/rib-1.0.0
