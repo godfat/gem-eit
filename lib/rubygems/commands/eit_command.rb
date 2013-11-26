@@ -30,6 +30,6 @@ class Gem::Commands::EitCommand < Gem::Command
   end
 
   def eit
-    ENV['EIT_EDITOR'] || ENV['EDITOR'] || 'vim'
+    ENV['GEM_EDITOR'] || ENV['EDITOR'] || 'vim'
   end
 end

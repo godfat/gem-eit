@@ -25,6 +25,7 @@ Because [gem-edit][] was already taken.
 
 * Tested with MRI (official CRuby) 1.9.3, 2.0.0, Rubinius and JRuby.
 * [gem-path](https://github.com/godfat/gem-path)
+* `vim` from shell, or set `$GEM_EDITOR` or `$EDITOR` to the editor you want.
 
 ## INSTALLATION:
 
@@ -32,7 +33,8 @@ Because [gem-edit][] was already taken.
 
 ## SYNOPSIS:
 
-Please set either `$EIT_EDITOR` or `$EDITOR`.
+Please set either `$GEM_EDITOR` or `$EDITOR` to the editor you want.
+By default it would pick `vim` if nothing is set.
 
 ### Edit gem
 
