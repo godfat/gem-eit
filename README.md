@@ -23,7 +23,7 @@ Because [gem-edit][] was already taken.
 
 ## REQUIREMENTS:
 
-* Tested with MRI (official CRuby) 1.9.3, 2.0.0, Rubinius and JRuby.
+* Tested with MRI (official CRuby), Rubinius and JRuby.
 * [gem-path](https://github.com/godfat/gem-path)
 * `vim` from shell, or set `$GEM_EDITOR` or `$EDITOR` to the editor you want.
 
@@ -73,7 +73,7 @@ This was extracted from [eit-gem][].
 
 Apache License 2.0
 
-Copyright (c) 2013, Lin Jen-Shin (godfat)
+Copyright (c) 2013-2014, Lin Jen-Shin (godfat)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
